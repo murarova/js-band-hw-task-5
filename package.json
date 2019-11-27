@@ -6,7 +6,7 @@
     "build": "webpack --config webpack/webpack.config.prod.js  --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
     "commit": "npx git-cz",
-    "test": "jest --coverage --watch",
+    "test": "jest --coverage",
     "lint": "eslint ."
   },
   "husky": {
