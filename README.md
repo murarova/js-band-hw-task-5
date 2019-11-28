@@ -64,7 +64,7 @@ ready to be deployed!
 │   ├── services
 │   │   ├── event-emitter.js
 │   │   ├── factory.js
-│   │   └── localstorage.js
+│   │   └── index.js
 │   ├── vehicles
 │   │   ├── ship.js
 │   │   ├── truck.js

@@ -11,8 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run test"
+      "pre-commit": "npm run lint npm run test"
     }
   },
   "repository": {
@@ -83,6 +82,16 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["json", "html"]
-}
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/coverage/**",
+      "!**/webpack/**"
+    ]
+  }
 }
