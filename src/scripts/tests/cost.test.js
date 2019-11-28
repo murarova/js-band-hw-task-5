@@ -5,6 +5,6 @@ test('class Cost return an new Cost', () => {
   expect(newCost).toEqual({
     model: 'Ship',
     costByKg: '50',
-    costByKm: '100'
+    costByKm: '100',
   });
 });

@@ -1,6 +1,5 @@
-import View from "../view"
+import View from '../view';
 
 test('View is an function', () => {
-  expect(typeof View).toBe("function");
+  expect(typeof View).toBe('function');
 });
-
