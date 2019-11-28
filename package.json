@@ -11,7 +11,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint npm run test"
+      "pre-commit": "npm run lint && npm run test"
     }
   },
   "repository": {
@@ -50,6 +50,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
     "file-loader": "^3.0.1",
     "html-webpack-plugin": "^4.0.0-beta.8",
     "jest": "^24.9.0",
