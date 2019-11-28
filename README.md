@@ -38,52 +38,69 @@ ready to be deployed!
 ---
 
 ```bash
-├── fonts
-│   ├── Segoe-UI
-│   │   ├── Segoe-UI.ttf
-│   │   ├── Segoe-UI.woff
-│   │   └── Segoe-UI.woff2
-│   ├── Segoe-UI-black
-│   │   ├── Segoe-UI-black.ttf
-│   │   ├── Segoe-UI-black.woff
-│   │   └── Segoe-UI-black.woff2
-│   ├── Segoe-UI-bold
-│   │   ├── Segoe-UI-bold.ttf
-│   │   ├── Segoe-UI-bold.woff
-│   │   └── Segoe-UI-bold.woff2
-│   └── Segoe-UI-semibold
-│       ├── Segoe-UI-semibold.ttf
-│       ├── Segoe-UI-semibold.woff
-│       └── Segoe-UI-semibold.woff2
-├── index.html
-├── scripts
-│   ├── controller.js
-│   ├── cost.js
-│   ├── index.js
-│   ├── model.js
-│   ├── services
-│   │   ├── event-emitter.js
-│   │   ├── factory.js
-│   │   └── index.js
-│   ├── vehicles
-│   │   ├── ship.js
-│   │   ├── truck.js
-│   │   └── vehicle.js
-│   └── view.js
-└── styles
-    ├── _base.sass
-    ├── _fonts.sass
-    ├── libs
-    │   └── normalize.sass
-    ├── _libs.sass
-    ├── _main.sass
-    ├── main.scss
-    ├── _mixins
-    │   ├── _font-face.sass
-    │   └── _mixins.sass
-    ├── page.scss
-    ├── style.sass
-    └── _vars.sass
+├── src
+│   ├── favicon.png
+│   ├── fonts
+│   │   ├── Segoe-UI
+│   │   │   ├── Segoe-UI.ttf
+│   │   │   ├── Segoe-UI.woff
+│   │   │   └── Segoe-UI.woff2
+│   │   ├── Segoe-UI-black
+│   │   │   ├── Segoe-UI-black.ttf
+│   │   │   ├── Segoe-UI-black.woff
+│   │   │   └── Segoe-UI-black.woff2
+│   │   ├── Segoe-UI-bold
+│   │   │   ├── Segoe-UI-bold.ttf
+│   │   │   ├── Segoe-UI-bold.woff
+│   │   │   └── Segoe-UI-bold.woff2
+│   │   └── Segoe-UI-semibold
+│   │       ├── Segoe-UI-semibold.ttf
+│   │       ├── Segoe-UI-semibold.woff
+│   │       └── Segoe-UI-semibold.woff2
+│   ├── index.html
+│   ├── scripts
+│   │   ├── controller.js
+│   │   ├── cost.js
+│   │   ├── index.js
+│   │   ├── model.js
+│   │   ├── services
+│   │   │   ├── event-emitter.js
+│   │   │   ├── factory.js
+│   │   │   └── localstorage.js
+│   │   ├── tests
+│   │   │   ├── controller.test.js
+│   │   │   ├── cost.test.js
+│   │   │   ├── event-emiter.test.js
+│   │   │   ├── factory.test.js
+│   │   │   ├── localstorage.test.js
+│   │   │   ├── model.test.js
+│   │   │   ├── ship.test.js
+│   │   │   ├── truck.test.js
+│   │   │   └── view.test.js
+│   │   ├── vehicles
+│   │   │   ├── ship.js
+│   │   │   ├── truck.js
+│   │   │   └── vehicle.js
+│   │   └── view.js
+│   └── styles
+│       ├── _base.sass
+│       ├── _fonts.sass
+│       ├── libs
+│       │   └── normalize.sass
+│       ├── _libs.sass
+│       ├── _main.sass
+│       ├── main.scss
+│       ├── _mixins
+│       │   ├── _font-face.sass
+│       │   └── _mixins.sass
+│       ├── page.scss
+│       ├── style.sass
+│       └── _vars.sass
+├── tree
+└── webpack
+    ├── webpack.common.js
+    ├── webpack.config.dev.js
+    └── webpack.config.prod.
 ```
 
 ---
@@ -92,7 +109,4 @@ The application has the same functionality as
 [js-bang-hw-task-1](https://github.com/murarova/js-band-hw-task-1) with some
 **improvement**:
 
-- New transport is created by using Factory Method pattern.
-- Local storage have implemented as a Singleton.
-
-Demo: [GitHub Pages](https://murarova.github.io/js-band-hw-task-3/build/)
+Demo: [GitHub Pages](https://murarova.github.io/js-band-hw-task-5/build/)
